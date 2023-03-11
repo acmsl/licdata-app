@@ -1,9 +1,12 @@
 {
   "name": "licdata-app",
+  "description": "A solid-start application to admin licapi.acm-sl.com",
+  "license": "GPLv3",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
+    "build": "vite build",
+    "start": "solid-start start",
+    "serve": "vite preview"
   },
   "type": "module",
   "devDependencies": {
@@ -12,7 +15,8 @@
     "solid-start-node": "^0.2.19",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.4",
-    "vite": "^4.1.4"
+    "vite": "^4.1.4",
+    "netlify-cli": "^13.1.2"
   },
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
